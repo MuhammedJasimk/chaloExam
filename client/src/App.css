@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: #f3f2f2;
+  padding:30px;
+  height: calc(100vh - 60px);
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.css-heg063-MuiTabs-flexContainer{
+justify-content: center;
+}
+.css-1gsv261{
+border-bottom: 0 !important;
+}
+/* .css-heg063-MuiTabs-flexContainer{
+  display: inline-block !important;
+  background-color: aqua;
+  border-radius: 50px;
+} */
+.css-jpln7h-MuiTabs-scroller{
+justify-content: center;
+display: flex !important;
+margin-bottom: 10px !important;
+}
+
+
+.h-full{
+  height: 100%;
+  overflow: hidden;
+}
+.css-19kzrtu{
+height: 100%;
+padding: 0 !important;
+}
+#simple-tabpanel-0{
+   height: calc(100% - 58px);
+}
+#simple-tabpanel-1{
+  height: calc(100% - 58px);
+}
+.css-ahj2mt-MuiTypography-root{
+  height: 100%;
+  overflow: hidden;
+}
+.css-spj6ix{
+  overflow: hidden;
+}
+.uploadIcon{
+  margin-bottom: 15px;
+  font-size: 55px;
+  color: #fff;
+}
+.shade::before{
+  
+    position: absolute;
+    background: #554f4f7d;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0 !important;
+    border-radius: 20px;
+}
+.css-nxo287-MuiInputBase-input-MuiOutlinedInput-input{
+  padding: 4px !important;
+}
+
+.files{
+  background-color: #fff;
+  padding: 1px 5px;
+  margin-bottom: 18px;
+  border-radius: 20px;
+  
+}
+
+.scroll{
+  overflow-y: scroll;
+}
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+.css-mhx7pd-MuiFormControl-root{
+  border: 1px solid rgb(255, 255, 255) !important;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 0 !important;
+  }
+}
